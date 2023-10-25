@@ -15,6 +15,9 @@ vol_coef(strike, under_price, du_mat, implicit_vol)
 
 \item{implicit_vol}{Observed volatility from trading derivatives of the underlying asset.}
 }
+\value{
+Two Coefficients that represent the skew and the kurtosis of the smile curve.
+}
 \description{
 Estimates the coefficients for the volatility smile
 }

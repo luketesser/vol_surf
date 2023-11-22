@@ -5,7 +5,7 @@
 #' @param du_mat Time to maturity.
 #' @param implicit_vol Observed volatility from trading derivatives of the underlying asset.
 #'
-#' @return Two Coefficients that represent the skew and the kurtosis of the smile curve.
+#' @return Three Coefficients that represent the ATM vol, skew and kurtosis of the smile curve respectively.
 #' @export
 #'
 #' @examples
